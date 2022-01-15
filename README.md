@@ -1,3 +1,77 @@
+# HOMEBANKING: BANCO SAINT PATRICK
+
+## Indice
+1. [Resumen](#resumen)
+2. [Prototipo](#prototipo)
+
+
+### Resumen
+
+- Inicio de Proyecto: Lunes 10/01/2022
+- Fin de Proyecto: 
+### Prototipo
+
+| Expectativa | Realidad |
+| <img src="src/assets/prototype/figma-startview.png" alt="start view"/> |  |
+
+### Recursos
+- [Figma](https://www.figma.com/file/zZUH7VlheDl3A4haqOdKz5/HOMEBANKING%3A-BANCO-SAINT-PATRICK?node-id=0%3A1)
+- [Trello](https://trello.com/b/n5lPU0Br/home-banking)
+
+### Herramientas
+
+### Autores
+
+<details open>
+<summary>:art: UX/UI Designer</summary>
+
+- [x] Catherine Choque - [CatherineChoque](https://github.com/CatherineChoque)
+<br/>
+- [x] Noelis Hernández - [noelishernandezdg](https://github.com/noelishernandezdg)
+<br/>
+</details>
+<br/>
+
+<details open>
+<summary>:desktop_computer:	Frontend</summary>
+
+- [x] Gabriel Jaime Osorio Hernández - [gjaimeosorio](https://github.com/gjaimeosorio)
+<br/>
+- [x] Andrea Estefania Blanco Avila - [Andu15](https://github.com/Andu15)
+<br/>
+- [x] Noelis Hernández - [noelishernandezdg](https://github.com/noelishernandezdg)
+<br/>
+- [x] Maritza Rodriguez - [Mariperu](https://github.com/Mariperu)
+<br/>
+- [x] Claudia Alvarez Pacho - [Claudi4](https://github.com/Claudi4)
+<br/> 
+- [x] Catherine Choque - [CatherineChoque](https://github.com/CatherineChoque)
+<br/> 
+</details>
+<br/>
+
+<details open>
+<summary>:minidisc: Backend</summary>
+
+- [x] Víctor daniel Salvatierra - []()
+<br/>
+- [x] Santiago Agustín Cometto - [comettosantiago](https://github.com/comettosantiago)
+<br/>
+</details>
+<br/>
+
+<details open>
+<summary>:white_check_mark:	QA / Tester</summary>
+
+- [x] Bruno Gonzalez
+<br/>
+</details>
+<br/>
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
