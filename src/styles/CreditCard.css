@@ -1,0 +1,55 @@
+.card{
+  @apply flex justify-center font-Montserrat;
+}
+
+.card-container{
+  background: linear-gradient(90deg, #74EACA -12.76%, #5DBBA2 54.93%, #74EACA 111.01%);
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  width: 80%;
+  @apply p-2;
+}
+
+.top-card{
+  @apply flex justify-between items-center;
+}
+
+.top-card p:first-child{
+  @apply text-white opacity-70 font-bold;
+}
+
+.top-card p:last-child{
+  @apply text-white font-black italic text-3xl;
+}
+
+.card-balance-container p{
+  @apply text-white;
+}
+
+.cardNumber-container{
+  @apply flex justify-center items-center;
+}
+
+.cardNumber-container p{
+  @apply text-white opacity-70;
+}
+
+.card-data{
+  @apply flex justify-between flex-wrap items-center;
+}
+
+.card-data p:first-child{
+  @apply text-white font-medium;
+  max-width: 68%;
+}
+
+/* .card-data div{
+  max-width: 20%;
+} */
+.card-data-title{
+  @apply text-xs
+}
+
+.card-data-exp{
+  @apply text-white text-center text-xs;
+}
