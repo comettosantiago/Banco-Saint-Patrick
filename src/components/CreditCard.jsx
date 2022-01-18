@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CreditCard = ({props}) => {
+const CreditCard = (props) => {
   return (
       <div className="card">
         <div className="card-container">
@@ -12,7 +12,7 @@ const CreditCard = ({props}) => {
             <p>$ {props.cashBalance}.00</p>
           </div>
           <div className="cardNumber-container">
-            <p>*{props.cardNumber}</p>
+            <p>**** **** **** {props.cardNumber}</p>
           </div>
           <div className="card-data">
             <p>{props.userName}</p>

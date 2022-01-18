@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+
+import CreditCard from '../components/CreditCard';
 
 const Main = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <CreditCard/>
+    </>
   )
 }
 
