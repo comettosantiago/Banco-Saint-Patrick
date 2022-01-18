@@ -8,7 +8,7 @@ import Start from './pages/Start.jsx';
 import Login from './pages/Login.jsx';
 import Main from './pages/Main.jsx';
 import Transfer from './pages/Transfer.jsx';
-import TransferProcess from './pages/ TransferProcess.jsx';
+import TransferProcess from './pages/TransferProcess.jsx';
 import ConfirmTransfer from './pages/ConfirmTransfer.jsx';
 import SuccesfulTransaction from './pages/SuccesfulTransaction.jsx';
 
