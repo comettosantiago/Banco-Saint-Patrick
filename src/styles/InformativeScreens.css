@@ -1,35 +1,114 @@
-.container-info{
-  @apply grid grid-cols-1 xl:grid-cols-2 font-Montserrat text-center;
+.slide {
+  font-family: "Montserrat", "sans-serif";
+  color: #343434;
 }
 
-.container-top{
-  @apply mx-auto mb-16 flex;
+.pic1Start {
+  padding: 2rem 2rem 1rem 2rem;
+}
+.pic2Start {
+  padding: 3.5rem 2rem 1rem 2rem;
+}
+.logoStart {
+  width: 15% !important;
+  margin: 8rem 0rem 2rem 0rem !important;
+}
+.containerStart-image-desktop {
+  display: flex;
+  justify-content: center;
 }
 
-.container-top img{
-  @apply align-middle;
-  /* animacion */
-  animation: slight-displacement 3s 2 alternate;
-}
-
-@keyframes slight-displacement {
-  0%   {
-    transform: translateX(0);
+@media (min-width: 650px) {
+  .containerStart {
+    display: flex;
+    justify-content: center;
+    padding: 5rem 5rem 5rem 5rem;
   }
-  100% {
-    transform: translateX(50px);
-  } 
+  .pic1Start {
+    width: 100% !important;
+    padding: 3rem 0rem 0rem 0rem;
+  }
+  .pic2Start {
+    width: 100% !important;
+    padding: 4.5rem 0rem 0rem 0rem;
+  }
+  .logoStart {
+    width: 15%;
+    margin: 3.5rem 5rem 1rem 5rem !important;
+  }
+
+  .containerStart-content {
+    padding: 4rem 2rem 3rem 2rem;
+  }
+  .title-Start {
+    font-size: 26px;
+  }
+
+  .text-Start {
+    font-size: 18px;
+  }
+
+  .title-Start-green,
+  .title-Start-yellow {
+    font-size: 28px;
+  }
 }
 
-.container-bottom{
-  width: 60%;
-  @apply mx-auto;
+.title-Start {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 0rem 2rem 1rem 2rem;
 }
 
-.slide-title{
-  @apply font-semibold text-2xl	sm:text-3xl	md:text-4xl	lg:text-5xl	xl:text-6xl	2xl:text-7xl xl:mt-11 text-darkBlack;
+.text-Start {
+  text-align: center;
+  font-size: 17px;
+  padding: 0rem 3rem 1rem 3rem;
 }
 
-.slide-content{
-  @apply text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl 2xl:mt-20 text-ligthBlack;
+.title-Start-green,
+.title-Start-yellow {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.title-Start-green {
+  color: #4a9480;
+}
+.title-Start-yellow {
+  color: #d8bc2f;
+}
+
+.container-btn-StartBank {
+  display: flex;
+  justify-content: center;
+}
+.btn-primary {
+  margin: 5rem 0rem 2rem 0rem;
+  border: #f6b54d;
+  background-color: #f6b54d !important;
+  border-radius: 20px;
+  height: 44px;
+  width: 200px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.btn-primary :hover {
+  border-color: #4a9480 !important;
+}
+
+.carousel-indicators {
+  position: fixed;
+  margin-bottom: 4rem;
+}
+.carousel-indicators [data-bs-target] {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #d8bc2f;
+  margin: 0px 8px 0px 8px;
 }
