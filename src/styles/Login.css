@@ -1,0 +1,43 @@
+.container-keyboard { 
+    position: center;
+  }
+  
+  .buttons-keyboard {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .login-top{
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .input-password{
+    @apply md:h-full rounded md:rounded-lg bg-gray ;
+    font-family: Montserrat;
+    font-size: medium;
+  }
+
+  .login-pin{
+    font-family: Montserrat;
+    font-size: large;
+    color: gray;
+  }
+
+  .btn-toggle-password{
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 92%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
