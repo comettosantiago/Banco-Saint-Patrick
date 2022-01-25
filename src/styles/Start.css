@@ -1,0 +1,11 @@
+.carousel-indicators {
+  position: fixed;
+  margin-bottom: 4rem;
+}
+.carousel-indicators [data-bs-target] {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #d8bc2f;
+  margin: 0px 8px 0px 8px;
+}
