@@ -1,0 +1,34 @@
+.container-main-logo{
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.logo{
+  width: 30% !important;
+  @apply mx-auto my-11;
+}
+
+figcaption{
+  @apply text-center font-Montserrat font-semibold text-4xl	;
+}
+
+.text-bank{
+  @apply text-darkGreen block;
+}
+
+.text-name{
+  @apply text-darkYellow block;
+}
+
+@media (min-width: 650px) { 
+  .logo{
+    width: 20% !important;
+  }
+}
+
+@media (min-width: 1200px) { 
+  .logo{
+    width: 10% !important;
+  }
+}

@@ -1,3 +1,11 @@
-.btn {
-  /* @apply px-4 py-2 rounded font-semibold bg-gray-200 text-black; */
+.container-btn{
+  @apply text-center;
+}
+
+.btn{
+  @apply rounded-full text-white p-2 w-44 mt-20 text-xl font-bold	mb-20;
+}
+
+.main-btn {
+  background-color: #f6b54d !important;
 }
