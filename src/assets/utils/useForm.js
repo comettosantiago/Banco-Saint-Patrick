@@ -30,7 +30,7 @@ export const useForm = (initialForm, validateForm) => {
   const handleBlur = (e) => {
     handleChange(e);
     setErrors(validateForm(form));
-    // handleSubmit(e);
+
     if(form.dni.trim() && form.pin.trim()){
       handleSubmit(e);
     } else {
