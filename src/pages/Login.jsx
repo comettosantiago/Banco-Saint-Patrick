@@ -41,10 +41,18 @@ const Login = () => {
   } = useForm(initialForm, validationsForm);
 
   return (
-    <div>
-      <h2>Ingresa tus datos</h2>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="dni">Numero de Identidad:</label>
+    <div
+    className="login-form"
+    >
+      <h2 className="login-title">Ingresa tus datos</h2>
+      <form
+        onSubmit={handleSubmit}
+        className="container-login-form"
+      >
+        <label
+          htmlFor="dni"
+          className="label-login-form"
+        >Numero de Identidad:</label>
         <input 
           id="dni"
           type="text" 
@@ -54,10 +62,14 @@ const Login = () => {
           onChange={handleChange}
           value={form.dni}
           required
+          className="input-login-form"
           />
-        {errors.dni && <p>{errors.dni}</p>}
+        {errors.dni && <p className="error-login-form">{errors.dni}</p>}
 
-        <label htmlFor="pin">Pin:</label>
+        <label
+          htmlFor="pin"
+          className="label-login-form"
+        >Pin:</label>
         <input 
           id="pin"
           type="password" 
@@ -67,14 +79,18 @@ const Login = () => {
           onChange={handleChange}
           value={form.password}
           required
+          className="input-login-form"
           />
-        {errors.pin && <p>{errors.pin}</p>}
+        {errors.pin && <p className="error-login-form">{errors.pin}</p>}
 
         {/* <input type="submit" value="ENVIAR"/> */}
       </form>
-        <div><NumKeyboard /></div>
+        {/* <div><NumKeyboard /></div> */}
+        <p
+          className="forget-pass"
+        >¿Olvidaste tu clave?</p>
     </div>
   )
 }
 
-export default Login
+export default Login;
