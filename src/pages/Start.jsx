@@ -4,6 +4,7 @@ import Logo from '../components/Logo';
 import img1 from '../assets/images/cardStart.png';
 import img2 from '../assets/images/transac.png';
 import InformativeScreens from '../components/InformativeScreens';
+import TransactionLabel from "../components/TransactionLabel";
 
 const initialState = [
   {
@@ -94,6 +95,14 @@ const Start = () => {
           ></span>
           <span className="visually-hidden">Next</span>
         </button>
+        <TransactionLabel order={1} user="Prueba componente movimientos" amount={50}/>
+        <TransactionLabel order={2} user="Prueba componente movimientos" amount={50}/>
+        <TransactionLabel order={3} user="Prueba componente movimientos" amount={50}/>
+        <TransactionLabel order={4} user="Prueba componente movimientos" amount={50}/>
+        <TransactionLabel order={5} user="Prueba componente movimientos" amount={50}/>
+        <TransactionLabel order={6} user="Prueba componente movimientos" amount={50}/>
+        <TransactionLabel order={7} user="Prueba componente movimientos" amount={50}/>
+        <TransactionLabel order={8} user="Prueba componente movimientos" amount={50}/>
       </div>
   );
 };
