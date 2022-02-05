@@ -1,13 +1,14 @@
-import React from 'react';
-
-import CreditCard from '../components/CreditCard';
+import React from "react";
+import CreditCard from "../components/CreditCard";
+import { NavBar } from "../components/NavBar.jsx";
 
 const Main = () => {
   return (
     <>
-      <CreditCard/>
+      <NavBar />
+      <CreditCard />
     </>
-  )
-}
+  );
+};
 
-export default Main
+export default Main;
