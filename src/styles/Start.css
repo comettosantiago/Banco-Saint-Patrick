@@ -1,6 +1,7 @@
 .carousel-indicators {
-  position: fixed;
-  margin-bottom: 4rem;
+  position: relative;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 .carousel-indicators [data-bs-target] {
   height: 12px;
