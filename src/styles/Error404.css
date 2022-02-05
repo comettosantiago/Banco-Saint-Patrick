@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto:wght@100;300&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto:wght@100;300&display=swap");
 :root {
   --button: #b3b3b3;
   --button-color: #0a0a0a;
@@ -23,18 +23,18 @@
   inherits: false;
   syntax: "<integer>";
 }
-body {
+/* body {
   min-height: 100vh;
   display: flex;
   font-family: "Roboto", sans-serif;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /*background: var(--bg);*/
+  background: var(--bg);
   color: var(--color);
   perspective: 1200px;
-}
-a {
+} */
+/* a {
   text-transform: uppercase;
   text-decoration: none;
   background: var(--button);
@@ -43,8 +43,8 @@ a {
   border-radius: 4rem;
   font-size: 0.875rem;
   letter-spacing: 0.05rem;
-}
-p {
+} */
+/*p {
   font-weight: 100;
 }
 h1 {
@@ -134,4 +134,4 @@ h1:after {
     --swing-y: -100;
     --swing-x: 100;
   }
-}
+} */
