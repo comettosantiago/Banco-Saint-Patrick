@@ -1,0 +1,12 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2rem 1rem 2rem;
+}
+
+.fa-user {
+  color: #5dbba2;
+  font-size: 35px;
+  padding: 5px;
+  align-content: center;
+}
