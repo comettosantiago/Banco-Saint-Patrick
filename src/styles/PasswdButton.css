@@ -1,6 +1,10 @@
 .btn-password{
-    @apply bg-lightGreen active:bg-aqua text-aqua font-bold py-2 px-4 rounded-full;
-    transition-duration: 0.3s;
+    @apply bg-lightGreen text-aqua font-bold py-2 px-4 rounded-full;
+    /* transition-duration: 0.3s; */
     font-family: Montserrat;
-    font-size: large;
+    /* font-size: large; */
+}
+
+.container-keyboard{
+    display: flex;
 }

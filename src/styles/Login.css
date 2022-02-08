@@ -1,51 +1,49 @@
 .container-keyboard { 
-    position: center;
+    /* position: center; */
+    /* justify-content: center; */
   }
   
-  .buttons-keyboard {
+  /* .buttons-keyboard {
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-  }
+  } */
 
-  .login-top{
+  /* .login-top{
     margin: 0;
     position: absolute;
     top: 25%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-  }
+  } */
 
-  .input-password{
+  /* .input-password{
     @apply md:h-full rounded md:rounded-lg bg-gray ;
     font-family: Montserrat;
     font-size: medium;
-  }
+  } */
 
-  .login-pin{
+  /* .login-pin{
     font-family: Montserrat;
     font-size: large;
     color: gray;
-  }
+  } */
 
-  .btn-toggle-password{
+  /* .btn-toggle-password{
     margin: 0;
     position: absolute;
     top: 70%;
     left: 92%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-  }
+  } */
 
 
 /* codigo andrea */
-.login-form{
-  /* @apply m-auto */
-}
 
 .login-title{
   @apply text-aqua text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-7xl font-semibold my-11; 

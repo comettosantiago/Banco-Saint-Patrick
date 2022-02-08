@@ -1,7 +1,6 @@
 import React from 'react';
 
 const InformativeScreens = ({info}) => {
-  console.log(info)
   return (
     <section className='container-info'>
       <div className='container-top'>
