@@ -1,6 +1,54 @@
 .btn-password{
-    @apply bg-lightGreen active:bg-aqua text-aqua font-bold py-2 px-4 rounded-full;
-    transition-duration: 0.3s;
+    @apply bg-lightGreen text-aqua font-bold py-2 px-4 rounded-full;
     font-family: Montserrat;
-    font-size: large;
+}
+
+.buttons-keyboard {
+    @apply grid grid-cols-3 mx-auto;
+}
+
+@media (min-width: 300px) {
+    .buttons-keyboard {
+        @apply gap-y-2 gap-x-3;
+    }
+
+    .container-keyboard {
+        @apply mt-2;
+    }
+}
+
+@media (min-width: 660px) {
+    .buttons-keyboard {
+        @apply w-52;
+    }
+
+    .container-keyboard {
+        @apply mt-3;
+    }
+}
+
+@media (min-width: 660px) {
+    .container-keyboard {
+        @apply mt-5;
+    }
+}
+
+@media (min-width: 1440px) {
+    .buttons-keyboard {
+        @apply gap-y-5 gap-x-3;
+    }
+
+    .container-keyboard {
+        @apply mt-11;
+    }
+}
+
+@media (min-width: 2000px) {
+    .buttons-keyboard {
+        @apply gap-y-7 gap-x-4;
+    }
+
+    .container-keyboard {
+        @apply mt-11;
+    }
 }
