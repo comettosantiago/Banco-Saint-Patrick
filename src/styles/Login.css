@@ -34,14 +34,14 @@
 .forget-pass{
   @apply text-orange font-semibold text-base sm:text-xl;
   position: fixed;
-  bottom: 1%;
+  bottom: 5%;
   right: 25%;
 }
 
 @media (min-width: 320px) {
   .forget-pass {
     right: 30%;
-    bottom: 3%;
+    /* bottom: 5%; */
   }
 }
 @media (min-width: 405px) {
@@ -89,14 +89,12 @@
 @media (min-width: 690px) {
   .forget-pass {
     right: 38%;
-    bottom: 5%;
   }
 }
 
-@media (min-width: 770px) {
+@media (min-width: 768px) {
   .forget-pass {
     right: 40%;
-    bottom: 5%;
   }
 }
 

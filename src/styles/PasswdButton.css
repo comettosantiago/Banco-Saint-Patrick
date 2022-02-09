@@ -7,23 +7,19 @@
     @apply grid grid-cols-3 mx-auto;
 }
 
+.container-keyboard {
+    @apply mt-3;
+}
+
 @media (min-width: 300px) {
     .buttons-keyboard {
         @apply gap-y-2 gap-x-3;
-    }
-
-    .container-keyboard {
-        @apply mt-2;
     }
 }
 
 @media (min-width: 660px) {
     .buttons-keyboard {
         @apply w-52;
-    }
-
-    .container-keyboard {
-        @apply mt-3;
     }
 }
 
