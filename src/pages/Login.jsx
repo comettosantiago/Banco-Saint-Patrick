@@ -87,14 +87,14 @@ const Login = () => {
           className="label-login-form"
         >Password:</label>
         <div
-          className=""
+          className="input-login-form"
         >
           <input
             id="pass"
             type={visibility ? "text" : "password"}
             placeholder="Escribe tu password"
             name="pass"
-            // className="input-login-form"
+            className="input-pass"
             onClick={showKeyboard}
             value={key}
             readOnly

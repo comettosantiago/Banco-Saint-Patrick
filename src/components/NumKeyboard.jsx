@@ -2,8 +2,8 @@ import PasswordButton from '../components/PasswordButton';
 
 const NumKeyboard = ({handlePassword, handleDelete}) => {
   return (
-      // <div className='container-keyboard'>
-        <div className='buttons-keyboard grid grid-cols-3 gap-4 w-48'>
+      <div className='container-keyboard'>
+        <div className='buttons-keyboard'>
           <div><PasswordButton onClick={handlePassword} label="1" value="1"/></div>
           <div><PasswordButton onClick={handlePassword} label="2" value="2"/></div>
           <div><PasswordButton onClick={handlePassword} label="3" value="3"/></div>
@@ -21,7 +21,7 @@ const NumKeyboard = ({handlePassword, handleDelete}) => {
             </button>
           </div>
         </div>
-        // </div> 
+      </div> 
   )
 }
 
