@@ -24,7 +24,7 @@ function App() {
         <Route path="/transfer/process" element={<TransferProcess/>} />
         <Route path="/transfer/confirm" element={<ConfirmTransfer/>} />
         <Route path="/transfer/sucess" element={<SuccesfulTransaction/>} />
-        <Route path="/404" element={<Error404/>} />
+        <Route path="*" element={<Error404/>} />
       </Routes>
     </BrowserRouter>
   );

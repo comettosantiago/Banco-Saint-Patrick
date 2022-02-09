@@ -1,43 +1,123 @@
-.container-keyboard { 
-    position: center;
-  }
-  
-  .buttons-keyboard {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
+.login-title{
+  @apply text-aqua text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-7xl font-semibold my-11; 
+}
 
-  .login-top{
-    margin: 0;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
+.container-login-form{
+  width: 50%;
+  margin: auto;
+}
 
-  .input-password{
-    @apply md:h-full rounded md:rounded-lg bg-gray ;
-    font-family: Montserrat;
-    font-size: medium;
-  }
+.label-login-form{
+  display: block;
+  text: #797777;
+  @apply mt-8 mb-1 font-extralight	
+}
 
-  .login-pin{
-    font-family: Montserrat;
-    font-size: large;
-    color: gray;
-  }
+.input-login-form{
+  width: 100%;
+  @apply bg-gray p-1 rounded-lg	flex;
+}
 
-  .btn-toggle-password{
-    margin: 0;
-    position: absolute;
-    top: 70%;
-    left: 92%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+.input-login-form::placeholder{
+  @apply text-lightGreen
+}
+
+.input-pass {
+  width: 95%;
+  @apply bg-transparent	border-transparent;
+}
+
+.error-login-form{
+  @apply text-red-500;
+}
+
+.forget-pass{
+  @apply text-orange font-semibold text-base sm:text-xl;
+  position: fixed;
+  bottom: 5%;
+  right: 25%;
+}
+
+@media (min-width: 320px) {
+  .forget-pass {
+    right: 30%;
+    /* bottom: 5%; */
   }
-  
+}
+@media (min-width: 405px) {
+  .forget-pass {
+    right: 32%;
+  }
+  .container-login-form{
+    width: 41%;
+  }
+}
+
+@media (min-width: 450px) {
+  .forget-pass {
+    right: 34%;
+  }
+  .container-login-form{
+    width: 37%;
+  }
+}
+
+@media (min-width: 501px) {
+  .forget-pass {
+    right: 36%;
+  }
+  .container-login-form{
+    width: 35%;
+  }
+}
+
+@media (min-width: 555px) {
+  .forget-pass {
+    right: 38%;
+  }
+  .container-login-form{
+    width: 30%;
+  }
+}
+
+@media (min-width: 644px) {
+  .forget-pass {
+    right: 36%;
+  }
+}
+
+@media (min-width: 690px) {
+  .forget-pass {
+    right: 38%;
+  }
+}
+
+@media (min-width: 768px) {
+  .forget-pass {
+    right: 40%;
+  }
+}
+
+@media (min-width: 820px) {
+  .forget-pass {
+    right: 41%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .forget-pass {
+    right: 42%;
+  }
+}
+
+@media (min-width: 1120px) {
+  .forget-pass {
+    right: 43%;
+  }
+}
+
+@media (min-width: 1438px) {
+  .forget-pass {
+    right: 45%;
+  }
+}
