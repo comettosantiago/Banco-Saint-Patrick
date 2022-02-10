@@ -1,5 +1,6 @@
 import React from "react";
 
+import "../styles/MainPage.css";
 import CreditCard from "../components/CreditCard";
 import { NavBar } from "../components/NavBar.jsx";
 import mainImg from "../assets/images/mainImag.png";
@@ -9,29 +10,29 @@ const Main = () => {
   return (
     <>
       <NavBar />
-
-      <section className="">
-        <div>
-          <div>
-            <h2>Hola, <span>Noelis</span></h2>
-            <p>¿Que haremos hoy?</p>
+      <div className="main-container">
+        <section className="main-user-data-container">
+          <div className="user-data-container">
+            <div>
+              <h2>Hola, <span className="user-name">Noelis</span></h2>
+              <p className="welcome-text">¿Que haremos hoy?</p>
+            </div>
+            <img className="main-img" src={mainImg} alt="main img"/>
           </div>
-          <img src={mainImg}/>
-        </div>
 
-        <p>Mis tarjetas</p>
-        <div>
-          <CreditCard/>
-        </div>
+          <p className="cards-title-text">Mis tarjetas</p>
+          <div className="cards-list-container">
+            <CreditCard/>
+          </div>
+        </section>
 
-      </section>
-
-      <section>
-        <h2>MOVIMIENTOS</h2>
-        <div>
-          <TransactionLabel/>
-        </div>
-      </section>
+        <section className="main-data-container">
+          <h2 className="movements-title-text">MOVIMIENTOS</h2>
+          <div className="movements-container">
+            <TransactionLabel/>
+          </div>
+        </section>
+      </div>
     </>
   );
 };

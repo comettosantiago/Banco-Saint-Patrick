@@ -6,8 +6,9 @@
   background: linear-gradient(90deg, #74EACA -12.76%, #5DBBA2 54.93%, #74EACA 111.01%);
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
-  width: 80%;
-  @apply p-2 sm:w-64 md:w-64 lg:w-72 xl:w-80 2xl:w-96;
+  @apply p-2;
+  /* width: 80%; */
+  /* @apply p-2 sm:w-64 md:w-64 lg:w-72 xl:w-80 2xl:w-96; */
 }
 
 .top-card{
