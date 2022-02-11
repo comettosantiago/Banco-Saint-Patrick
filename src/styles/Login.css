@@ -18,10 +18,6 @@
   @apply bg-gray p-1 rounded-lg	flex;
 }
 
-.input-login-form::placeholder{
-  @apply text-lightGreen
-}
-
 .input-pass {
   width: 95%;
   @apply bg-transparent	border-transparent;

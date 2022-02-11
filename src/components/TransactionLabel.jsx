@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import '../styles/TransactionLabel.css';
+
 const TransactionLabel = ( { order, user, amount }) => {
   return (
     <>

@@ -8,4 +8,15 @@
     margin: 1rem 2rem 0rem 2rem;
     max-width: 350px;
     padding: 0rem 1rem;
+    @apply text-white
 }
+
+/* .trxLabelBox { */
+    /* @apply text-white grid grid-cols-3 text-center ; */
+    /* border: solid 1px white; */
+    /* border-radius: 6px; */
+    /* margin: 1rem 2rem 0rem 2rem; */
+    /* max-width: 350px; */
+    /* padding: 0rem 1rem; */
+    /* justify-content: space-between; */
+/* } */
