@@ -9,12 +9,11 @@ const Transfer = () => {
   return (
     <>
       <NavTransfer />
-      <section className='container'>
+      <section className='containers'>
         <p className='title-text'>Elige a quién tranferir</p>
-        <button className='choose-transfer'>Tranferir a otros<Icon icon="akar-icons:circle-plus" color="#f6b54d" height="40" width="80" rotate={1} /></button>
-        <div>
-          <p>Favoritos</p>
-          <hr />
+        <button className='choose-transfer'>Tranferir a otros<Icon icon="akar-icons:circle-plus" color="#f6b54d" height="20" width="20" rotate={1} /></button>
+        <div className='favorites-group'>
+          <p className='favorites-title'>Favoritos</p>
         </div>
         <FavoriteItems />
       </section>
