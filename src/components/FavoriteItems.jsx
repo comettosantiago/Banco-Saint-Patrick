@@ -10,7 +10,7 @@ const FavoriteItems = () => {
         <p>Claudia</p>
         <Icon icon="dashicons:arrow-up-alt2" color="#706e6e" height="20" rotate={1} />
       </section>
-      <hr className='favorite-divider-line'/>
+      <hr className='favorite-divider-line' />
     </>
   )
 }

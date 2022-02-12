@@ -1,0 +1,9 @@
+.title-text {
+  @apply text-aqua font-Montserrat text-xs
+}
+
+.choose-transfer {
+  width: 50%;
+  margin: auto;
+  @apply flex rounded-lg border-ligthBlack border-2 px-1 py-2 items-center	
+}
