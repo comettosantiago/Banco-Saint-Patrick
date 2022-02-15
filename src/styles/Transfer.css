@@ -1,0 +1,76 @@
+.containers {
+  width: 80%;
+  margin: auto;
+}
+
+.title-text {
+  @apply text-aqua font-Montserrat text-xs mt-2;
+}
+
+.choose-transfer {
+  width: 50%;
+  margin: auto;
+  @apply flex justify-evenly rounded-lg border-gray border-2 px-1 py-1 items-center text-ligthBlack my-4;
+}
+
+.favorites-group {
+  width: 50%;
+}
+
+.favorites-title {
+  @apply text-aqua font-Montserrat text-xs;
+}
+
+@media (min-width: 300px) {
+  .title-text {
+    @apply text-sm mt-4;
+  }
+  .choose-transfer {
+    @apply px-3;
+  }
+}
+
+@media (min-width: 500px) {
+  .title-text {
+    @apply text-base mt-5;
+  }
+  .choose-transfer {
+    @apply text-lg py-2;
+  }
+}
+
+@media (min-width: 600px) {
+  .title-text {
+    @apply text-xl mt-8;
+  }
+  .choose-transfer {
+    @apply py-3 my-8;
+  }
+}
+
+@media (min-width: 800px) {
+  .title-text {
+    @apply text-xl;
+  }
+  .choose-transfer {
+    width: 40%;
+  }
+}
+
+@media (min-width: 900px) {
+  .title-text {
+    @apply text-2xl;
+  }
+  .choose-transfer {
+    @apply py-5 my-11 text-xl;
+  }
+}
+
+@media (min-width: 1000px) {
+  .title-text {
+    @apply text-2xl;
+  }
+  .choose-transfer {
+    @apply py-5 my-11 text-xl;
+  }
+}
