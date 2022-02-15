@@ -1,7 +1,6 @@
 import React from 'react';
 
 import NavTransfer from '../components/NavTransfer';
-import Button from '../components/Button';
 
 const TransferProcess = () => {
   return (
@@ -46,8 +45,8 @@ const TransferProcess = () => {
             value='US$1.00'
           />
 
-          <Button text='Continuar' route='transfer/confirm'/>
-          <Button text='Cancelar' route='main'/>
+          {/* <Button text='Continuar' route='transfer/confirm'/>
+          <Button text='Cancelar' route='main'/> */}
         </form>
       </section>
     </>
