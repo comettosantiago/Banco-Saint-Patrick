@@ -6,7 +6,7 @@ import Button from './Button';
 const Logo = () => {
   return (
     <div className='container-main-logo'>
-      <figure>
+      <figure className='logo-box'>
         <img className='logo' src={LogoApp} alt="logo Banco Saint Patrick" />
         <figcaption>
           <span className='text-bank'>BANCO</span>
