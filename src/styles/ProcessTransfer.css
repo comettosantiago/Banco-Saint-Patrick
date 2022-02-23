@@ -1,0 +1,36 @@
+.form-detail {
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+.form-detail p {
+    color: #5DBBA2;
+}
+.transfer-detail {
+    margin: 3rem 0rem 2rem 0rem;
+    line-height: 2rem;
+}
+.transfer-detail input {
+    margin: 18px 0;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.transfer-detail select {
+    margin: 18px 0;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 6px 13px 6px 10px;
+    color: #9ca3af;
+}
+.amount-detail input {
+    padding: 30px 0;
+    font-size: 28px;
+    color: #5DBBA2;
+    text-align: center;
+}
+.btn-section {
+    bottom: 0;
+    position: absolute;
+    margin-bottom: 2rem;
+    width: 80%;
+}
