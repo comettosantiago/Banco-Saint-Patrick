@@ -1,0 +1,62 @@
+.nav-transfer-container {
+  @apply flex justify-between	p-2 font-Montserrat text-base my-1 items-center text-ligthBlack;
+}
+
+.divider-line {
+  @apply divide-gray border-2	border-solid;
+  box-shadow: 0px 1px 5px;  
+}
+
+@media (min-width: 300px) {
+  .nav-transfer-container {
+    @apply my-2 text-lg mx-3;
+  }
+}
+
+@media (min-width: 500px) {
+  .nav-transfer-container {
+    @apply my-2 text-xl mx-5;
+  }
+
+  .iconify--akar-icons {
+    height: 30px;
+    width: 30px;
+  }
+
+  .iconify--carbon {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .nav-transfer-container {
+    @apply my-3 text-2xl mx-8;
+  }
+
+  .iconify--akar-icons {
+    height: 50px;
+    width: 40px;
+  }
+
+  .iconify--carbon {
+    height: 50px;
+    width: 40px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .nav-transfer-container {
+    @apply my-5  text-4xl mx-11;
+  }
+
+  .iconify--akar-icons {
+    height: 50px;
+    width: 60px;
+  }
+
+  .iconify--carbon {
+    height: 50px;
+    width: 60px;
+  }
+}

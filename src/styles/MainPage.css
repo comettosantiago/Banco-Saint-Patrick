@@ -1,0 +1,104 @@
+.main-container {
+  @apply grid grid-cols-1;
+}
+
+.main-user-data-container {
+  width: 90%;
+  margin: auto;
+}
+
+.user-data-container {
+  @apply grid grid-cols-1 font-Montserrat text-center text-ligthBlack text-xl;
+}
+
+.user-name {
+  @apply text-aqua;
+}
+
+.welcome-text {
+  @apply text-xs;
+}
+
+.main-img {
+  width: 80%;
+  margin: auto;
+}
+
+.cards-title-text {
+  width: 90%;
+  @apply text-ligthBlack text-lg font-Montserrat text-center;
+}
+
+.cards-list-container {
+
+}
+
+/* movimientos */
+
+.main-data-container {
+  background: linear-gradient(87.85deg, #4AA9C6 15.08%, #56C1B3 91.37%);
+  border-radius: 30px 30px 0px 0px;
+  @apply mt-4;
+}
+
+.movements-title-text {
+  @apply text-white text-center pt-4 text-xl mt-4
+}
+
+
+
+
+
+@media (min-width: 320px) {
+  .main-user-data-container {
+    width: 80%;
+  }
+
+  .user-data-container {
+    @apply grid-cols-2
+  }
+
+  .main-img {
+    width: 90%;
+  }
+
+  .cards-title-text {
+    @apply text-left;
+  }
+}
+
+@media (min-width: 400px) {
+  .user-data-container {
+    text-align: left;
+    @apply text-2xl;
+  }
+
+  .welcome-text {
+    @apply text-xs;
+  }
+
+  .main-img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 500px) {
+  .user-data-container {
+    @apply text-3xl;
+  }
+
+  .welcome-text {
+    @apply text-sm;
+  }
+}
+
+@media (min-width:800px) {
+  .main-container {
+    width: 97%;
+    @apply grid-cols-2;
+  }
+
+  .main-data-container {
+    border-radius: 30px 30px 30px 30px;
+  }
+}

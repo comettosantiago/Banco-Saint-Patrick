@@ -1,0 +1,51 @@
+.navOptions-container {
+  margin: 0px 0px 10px 0px;
+}
+.navItem-container {
+  width: 100%;
+  position: absolute;
+  top: -700px;
+  left: -2000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 8px;
+}
+
+.navItem-container:hover {
+  background-color: #e4f4ef;
+}
+
+.activeNav,
+.disabledNav {
+  font-size: 17px;
+  text-decoration: none;
+  margin: 15px 0px 15px 0px;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+}
+
+.activeNav {
+  color: #f6b54d;
+}
+.activeNav:hover {
+  color: #5dbba2;
+}
+
+.disabledNav {
+  color: #e1d0b5;
+}
+.disabledNav:hover {
+  color: #e1d0b5;
+}
+
+.navItem-container.activation {
+  width: 100%;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 30%;
+  left: 0;
+  right: 0;
+}

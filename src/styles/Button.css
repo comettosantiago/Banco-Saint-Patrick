@@ -3,9 +3,13 @@
 }
 
 .btn{
-  @apply rounded-full text-white p-2 w-44 mt-20 text-xl font-bold	mb-20;
+  @apply rounded-full text-white p-2 w-44 mt-2 text-xl font-bold	mb-2;
 }
 
 .main-btn {
   background-color: #f6b54d !important;
+}
+
+.second-btn {
+  background-color: #C4C4C4 !important;
 }

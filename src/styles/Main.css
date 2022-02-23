@@ -12,6 +12,8 @@
 @import './PasswdButton.css';
 @import './Login.css';
 @import './Spinner.css';
-@import './Error404.css';
 @import './Start.css';
 @import './Logo.css';
+@import './Error404.css';
+@import './ConfirmTransfer.css';
+@import './ProcessTransfer.css';
