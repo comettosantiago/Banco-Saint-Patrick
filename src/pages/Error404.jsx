@@ -1,19 +1,19 @@
 import React from 'react'
+import Img404 from '../assets/images/404.png';
+import Button from '../components/Button';
 
 const Error404 = () => {
   return (
-    <div>
-      <h1>404</h1>
-      <div class="cloak__wrapper">
-        <div class="cloak__container">
-          <div class="cloak"></div>
-        </div>
+    <>
+      <div className="cntImgError">
+        <img src={Img404} alt="" />
       </div>
-      <div class="info">
+      <div className="info">
         <h2>Oops!</h2>
-        <p>No encontramos lo qu buscabas.</p><a href="https://jhey.dev" target="_blank" rel="noreferrer noopener">Volver al inicio</a>
+        <p>No encontramos lo que buscabas.</p>
+        <Button text={'Ir a login'} route={'login'} />
       </div>
-    </div>
+    </>
   )
 }
 

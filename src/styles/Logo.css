@@ -9,6 +9,10 @@
   @apply mx-auto my-11;
 }
 
+.logo-box {
+  margin-bottom: 5rem;
+}
+
 figcaption{
   @apply text-center font-Montserrat font-semibold text-4xl	;
 }
